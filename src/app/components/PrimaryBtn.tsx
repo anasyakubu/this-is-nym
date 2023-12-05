@@ -9,7 +9,7 @@ const PrimaryBtn = (props: buttonProps) => {
   return (
     <div>
       <button
-        className="text-white text-sm p-2 m-1 rounded-sm"
+        className="text-white text-sm p-2 m-1 rounded-sm font-semibold"
         style={{ backgroundColor: "#1D4ED8" }}
       >
         {text}
