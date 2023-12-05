@@ -1,4 +1,5 @@
 import React from "react";
+// import Nav from "../../components/Nav";
 import Nav from "../../components/Nav";
 import "./HomeHeader.scss";
 import Image from "next/image";
@@ -45,6 +46,9 @@ const HomeHeader = () => {
               <PrimaryBtn text="Get your school on board" />
             </div>
           </div>
+        </div>
+        <div className="p-5">
+          <h6>Trusted by:</h6>
         </div>
       </div>
     </div>

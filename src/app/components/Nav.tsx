@@ -7,10 +7,10 @@ import PrimaryBtn from "@/app/components/PrimaryBtn";
 const Nav = () => {
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-transparent" style={{ color: "#122231" }}>
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -25,57 +25,53 @@ const Nav = () => {
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
-            </div>
+            </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-white"
             >
               <li>
-                <a>Item 1</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <Link href="/">About</Link>
               </li>
               <li>
-                <a>Item 3</a>
+                <Link href="/stories">Stories</Link>
+              </li>
+              <li>
+                <Link href="/">Secured</Link>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="m-4 bg-transparent normal-case text-xl">
+            <Image className="w-12" src={Logo} alt="Logo" />
+          </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+
+        <div
+          className="navbar-center hidden lg:flex"
+          style={{ color: "#122231" }}
+        >
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Item 1</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <Link href="/">About</Link>
             </li>
             <li>
-              <a>Item 3</a>
+              <Link href="/stories">Stories</Link>
+            </li>
+            <li>
+              <Link href="/stories">Secured</Link>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <div className="">
+            <PrimaryBtn text="Create an account" />
+          </div>
         </div>
       </div>
     </div>
