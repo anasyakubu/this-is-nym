@@ -4,6 +4,9 @@ import WhyUs from "../section/WhyUs/WhyUs";
 import Services from "../section/Services/Services";
 import KeyPoint from "../section/KeyPoint/KeyPoint";
 import Quotes from "../section/Quotes/Quotes";
+import Stats from "../section/Stats/Stats";
+import Partners from "../section/Partners/Partners";
+// import Video from "../section/Video/Video";
 
 const Home = () => {
   return (
@@ -12,6 +15,9 @@ const Home = () => {
       <Services />
       <WhyUs />
       <KeyPoint />
+      <Stats />
+      <Partners />
+      {/* <Video /> */}
       {/* <Quotes /> */}
     </div>
   );
