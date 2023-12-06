@@ -12,9 +12,10 @@ const PartnersCardTwo = () => {
         </div>
         <div className="title mt-10">
           <p className="text-sm">
-            Paystack is highly technical and fanatically customer oriented.
-            We’re excited to back such people in one of the world’s
-            fastest-growing regions.
+            Our investment in{" "}
+            <span style={{ color: "#1D4ED8" }}>NYM Technologies Limited</span>{" "}
+            aligns with the kind of investments we look for - those that will
+            help extend our reach into the global commerce ecosystem
           </p>
         </div>
         <div className="footer mt-10 flex items-center space-x-1 rtl:space-x-reverse">
