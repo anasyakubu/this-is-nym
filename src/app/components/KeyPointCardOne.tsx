@@ -6,7 +6,7 @@ const KeyPointCardOne = () => {
   return (
     <div className="KeyPointCardOne">
       <div
-        className="rounded-xl"
+        className="rounded-xl text-gray-900"
         style={{ backgroundColor: "#fff0d9", padding: "10%" }}
       >
         <div className="">
