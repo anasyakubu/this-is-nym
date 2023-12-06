@@ -8,7 +8,10 @@ import KeyPointCardThree from "@/app/components/KeyPointCardThree";
 
 const KeyPoint = () => {
   return (
-    <div className="KeyPoint" style={{ backgroundColor: "#063e2a" }}>
+    <div
+      className="KeyPoint text-gray-900"
+      style={{ backgroundColor: "#063e2a" }}
+    >
       <div className="p-10">
         <div className="tittle">
           <h2 className="text-xl mt-3 font-extrabold tracking-wide shadow-2 text-white sm:text-4xl">
