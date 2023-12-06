@@ -20,7 +20,7 @@ const Services = () => {
               <h3 className="text-gray-900 font-extrabold text-2xl sm:text-6xl lg:text-6xl">
                 Our Field of <span style={{ color: "#1D4ED8" }}>Expertise</span>
               </h3>
-              <p className="mt-3 text-md">
+              <p className="mt-5 text-md">
                 Explore the world of technological adventures with us through
                 our services. Explore the limitless possibilities of technology
                 with NYM Technologies Limited.
@@ -31,7 +31,7 @@ const Services = () => {
                 <span className="text-2xl bg-gray-900 text-white p-3 rounded-full">
                   <FaLaptopCode className="text-xl" />
                 </span>
-                <span className="text-center ml-5 mt-2 text-lg">
+                <span className="text-center ml-5 mt-2 text-lg font-semibold">
                   Software Development
                 </span>
               </p>
@@ -39,7 +39,7 @@ const Services = () => {
                 <span className="text-2xl bg-gray-900 text-white p-3 rounded-full">
                   <FaCode className="text-xl" />
                 </span>
-                <span className="text-center ml-5 mt-2 text-lg">
+                <span className="text-center ml-5 mt-2 text-lg font-semibold">
                   Web Development
                 </span>
               </p>
@@ -48,7 +48,7 @@ const Services = () => {
                 <span className="text-2xl bg-gray-900 text-white p-3 rounded-full">
                   <FaChalkboardUser className="text-xl" />
                 </span>
-                <span className="text-center ml-5 mt-2 text-lg">
+                <span className="text-center ml-5 mt-2 text-lg font-semibold">
                   Consultancy
                 </span>
               </p>
@@ -57,7 +57,7 @@ const Services = () => {
                 <span className="text-2xl bg-gray-900 text-white p-3 rounded-full">
                   <GiArtificialIntelligence className="text-xl" />
                 </span>
-                <span className="text-center ml-5 mt-2 text-lg">
+                <span className="text-center ml-5 mt-2 text-lg font-semibold">
                   Artificial Intelligence (AI)
                 </span>
               </p>
@@ -66,7 +66,9 @@ const Services = () => {
                 <span className="text-2xl bg-gray-900 text-white p-3 rounded-full">
                   <RiRobot2Fill className="text-xl" />
                 </span>
-                <span className="text-center ml-5 mt-2 text-lg">Robotics</span>
+                <span className="text-center ml-5 mt-2 text-lg font-semibold">
+                  Robotics
+                </span>
               </p>
             </div>
           </div>
