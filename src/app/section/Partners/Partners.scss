@@ -1,0 +1,13 @@
+.Partners {
+  .imgSection {
+    background-image: url("../../../../public/dots.svg");
+  }
+}
+
+@media (max-width: 600px) {
+  .Partners {
+    .p-10 {
+      padding: 6%;
+    }
+  }
+}
