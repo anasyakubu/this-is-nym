@@ -6,7 +6,7 @@ import ImgTwo from "../../../../public/Innovation-pana.svg";
 
 const WhyUs = () => {
   return (
-    <div className="WhyUs bg-white text-gray-900">
+    <div className="WhyUs bg-white text-gray-900" id="why">
       <div className="p-10">
         <div className="space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
           <div className="max-w-xl lg:py-16">

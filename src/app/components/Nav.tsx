@@ -34,13 +34,16 @@ const Nav = () => {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/">About</Link>
+                <Link href="/#about">About</Link>
               </li>
               <li>
-                <Link href="/stories">Stories</Link>
+                <Link href="/#why">Why Us</Link>
               </li>
               <li>
-                <Link href="/">Secured</Link>
+                <Link href="/">Stories</Link>
+              </li>
+              <li>
+                <Link href="/">Career</Link>
               </li>
             </ul>
           </div>
@@ -58,19 +61,22 @@ const Nav = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/">About</Link>
+              <Link href="/#about">About</Link>
             </li>
             <li>
-              <Link href="/stories">Stories</Link>
+              <Link href="/#why">Why Us</Link>
             </li>
             <li>
-              <Link href="/stories">Secured</Link>
+              <Link href="/">Stories</Link>
+            </li>
+            <li>
+              <Link href="/">Career</Link>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
           <div className="">
-            <PrimaryBtn text="Create an account" />
+            <PrimaryBtn text="Explore our technology" />
           </div>
         </div>
       </div>
