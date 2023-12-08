@@ -39,7 +39,7 @@ const ReviewCard: React.FC<ReviewProps> = ({
         />
         <div>
           <h6 className="text-lg font-medium text-gray-900">{name}</h6>
-          <p className="text-sm text-gray-600 dark:text-gray-300">{role}</p>
+          <p className="text-sm text-gray-600 ">{role}</p>
         </div>
       </div>
       <p className="mt-8 text-gray-800">{reviewText}</p>
@@ -49,7 +49,7 @@ const ReviewCard: React.FC<ReviewProps> = ({
 
 const ReviewsSection: React.FC = () => {
   return (
-    <div className="text-gray-900 bg-gray-100  mt-8" id="reviews">
+    <div className="text-gray-900 bg-gray-100  pt-8 pb-10" id="reviews">
       <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 p-5">
         <div className="mb-10 space-y-4 px-6 md:px-0">
           <h2 className="text-center text-2xl font-bold text-gray-800 md:text-4xl mt-10">
