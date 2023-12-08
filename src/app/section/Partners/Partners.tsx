@@ -19,8 +19,9 @@ const Partners = () => {
               Backed by strong global partners
             </h2>
             <p className="mt-5">
-              NYM Technologies Limited is backed by notable cloud companies as
-              well as some of the best known companies on the planet.
+              <span style={{ color: "#1D4ED8" }}>NYM Technologies Limited</span>{" "}
+              is backed by notable cloud companies as well as some of the best
+              known companies on the planet.
             </p>
           </div>
           <div className="imgSection">{/* <Image src={Dot} alt="" /> */}</div>

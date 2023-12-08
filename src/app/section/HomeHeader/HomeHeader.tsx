@@ -37,13 +37,16 @@ const HomeHeader = () => {
                 className="mt-4 text-sm leading-8"
                 style={{ color: "#122231" }} //#3d4f60 122231
               >
-                At NYM Technologies Limited, we are at the forefront of
-                innovation, driving technological advancements across various
-                domains. As a leading technology company, we specialize in AI,
-                Software Development, Consultancy, Robotics, and Web
-                Development, delivering cutting-edge solutions that empower
-                businesses to thrive in the digital age. Get your school on
-                board
+                At{" "}
+                <span style={{ color: "#1D4ED8" }}>
+                  NYM Technologies Limited
+                </span>
+                , we are at the forefront of innovation, driving technological
+                advancements across various domains. As a leading technology
+                company, we specialize in AI, Software Development, Consultancy,
+                Robotics, and Web Development, delivering cutting-edge solutions
+                that empower businesses to thrive in the digital age. Get your
+                school on board
               </p>
             </div>
             <div className="flex mt-10">
@@ -70,7 +73,7 @@ const HomeHeader = () => {
             </div>
             <div className="">
               {" "}
-              <Image src={Proptter} alt="Proptter" className="h-10 w-12  m-3" />
+              <Image src={Proptter} alt="Proptter" className="h-10 w-20  m-3" />
             </div>
             <div className="">
               <Image
