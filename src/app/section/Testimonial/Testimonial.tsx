@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Img from "../../../../public/user-1.jpg";
+// import Img from "../../../../public/user-1.jpg";
 import Nail from "../../../../public/nail.jpg";
 import BC from "../../../../public/bc.png";
 import High from "../../../../public/high.jpg";
@@ -8,6 +8,7 @@ import Khadi from "../../../../public/logo-2.jpg";
 import Littlesaheel from "../../../../public/littlesaheel.jpg";
 import OK from "../../../../public/ok.png";
 import Rest from "../../../../public/rest.png";
+import SmileCare from "../../../../public/smilecare.png";
 
 interface ReviewProps {
   name: string;
@@ -23,7 +24,10 @@ const ReviewCard: React.FC<ReviewProps> = ({
   reviewText,
 }) => {
   return (
-    <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+    <div
+      className="aspect-auto p-8 rounded-lg shadow-lg"
+      style={{ backgroundColor: "#f2f7f8", color: "#3d4f60" }}
+    >
       <div className="flex gap-4">
         <Image
           className="w-12 h-12 rounded-full"
@@ -47,7 +51,7 @@ const ReviewCard: React.FC<ReviewProps> = ({
 
 const ReviewsSection: React.FC = () => {
   return (
-    <div className="text-gray-600 dark:text-gray-300 mt-8" id="reviews">
+    <div className="text-gray-900 bg-white  mt-8" id="reviews">
       <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 p-5">
         <div className="mb-10 space-y-4 px-6 md:px-0">
           <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
@@ -69,9 +73,9 @@ const ReviewsSection: React.FC = () => {
             reviewText="Working with NYM Technologies Limited on our web development project was a pleasure. Their creative team brought our vision to life, and the end result exceeded our expectations. Responsive, innovative, and professional—highly recommended!"
           />
           <ReviewCard
-            name="Diligent Basic & Remedial"
-            role="CEO"
-            avatarSrc={Img}
+            name="Smile Care Dental Clinic"
+            role="IT Support"
+            avatarSrc={SmileCare}
             reviewText="From conception to execution, NYM Technologies Limited displayed exceptional agility during our software development project. Their ability to adapt to changing requirements and deliver a high-quality product was commendable. A reliable partner!"
           />
           <ReviewCard
