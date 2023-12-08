@@ -26,7 +26,7 @@ const ReviewCard: React.FC<ReviewProps> = ({
   return (
     <div
       className="aspect-auto p-8 rounded-lg shadow-lg"
-      style={{ backgroundColor: "#f2f7f8", color: "#3d4f60" }}
+      style={{ backgroundColor: "#fff", color: "#3d4f60" }}
     >
       <div className="flex gap-4">
         <Image
@@ -38,23 +38,21 @@ const ReviewCard: React.FC<ReviewProps> = ({
           loading="lazy"
         />
         <div>
-          <h6 className="text-lg font-medium text-gray-700 dark:text-white">
-            {name}
-          </h6>
-          <p className="text-sm text-gray-500 dark:text-gray-300">{role}</p>
+          <h6 className="text-lg font-medium text-gray-900">{name}</h6>
+          <p className="text-sm text-gray-600 dark:text-gray-300">{role}</p>
         </div>
       </div>
-      <p className="mt-8">{reviewText}</p>
+      <p className="mt-8 text-gray-800">{reviewText}</p>
     </div>
   );
 };
 
 const ReviewsSection: React.FC = () => {
   return (
-    <div className="text-gray-900 bg-white  mt-8" id="reviews">
+    <div className="text-gray-900 bg-gray-100  mt-8" id="reviews">
       <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 p-5">
         <div className="mb-10 space-y-4 px-6 md:px-0">
-          <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
+          <h2 className="text-center text-2xl font-bold text-gray-800 md:text-4xl mt-10">
             Don`t just take our word for it...
           </h2>
         </div>
