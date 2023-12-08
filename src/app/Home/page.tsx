@@ -6,7 +6,7 @@ import KeyPoint from "../section/KeyPoint/KeyPoint";
 // import Quotes from "../section/Quotes/Quotes";
 import Stats from "../section/Stats/Stats";
 import Partners from "../section/Partners/Partners";
-// import Testimonial from "../section/Testimonial/Testimonial";
+import Testimonial from "../section/Testimonial/Testimonial";
 // import Video from "../section/Video/Video";
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
       <KeyPoint />
       <Stats />
       <Partners />
-      {/* <Testimonial /> */}
+      <Testimonial />
       {/* <Video /> */}
       {/* <Quotes /> */}
     </div>
