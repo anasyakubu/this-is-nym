@@ -34,16 +34,19 @@ const Nav = () => {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/#about">About</Link>
+                <Link href="/About">About</Link>
               </li>
               <li>
                 <Link href="/#why">Why Us</Link>
               </li>
               <li>
-                <Link href="/">Stories</Link>
+                <Link href="/">Products</Link>
               </li>
               <li>
                 <Link href="/">Career</Link>
+              </li>
+              <li>
+                <Link href="/">Contact</Link>
               </li>
             </ul>
           </div>
@@ -61,16 +64,19 @@ const Nav = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/#about">About</Link>
+              <Link href="/About">About</Link>
             </li>
             <li>
               <Link href="/#why">Why Us</Link>
             </li>
             <li>
-              <Link href="/">Stories</Link>
+              <Link href="/">Products</Link>
             </li>
             <li>
               <Link href="/">Career</Link>
+            </li>
+            <li>
+              <Link href="/">Contact</Link>
             </li>
           </ul>
         </div>

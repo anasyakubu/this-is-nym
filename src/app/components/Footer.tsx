@@ -25,14 +25,11 @@ const Footer: React.FC = () => {
             </span>
           </a>
           <div className="mt-6 lg:max-w-sm">
-            <p className="text-sm text-gray-800 tracking-wider">
+            <p className="text-sm text-gray-800 tracking-wide">
               At NYM Technologies Limited, we`re more than a technology company;
               we`re architects of innovation. With expertise in AI, Software
               Development, Consultancy, Robotics, and Web Development, we craft
-              solutions that redefine possibilities. Our commitment to
-              excellence, collaborative approach, and relentless pursuit of
-              innovation set us apart. Join us on a journey of digital
-              transformation where your success is our mission.
+              solutions that redefine possibilities.
             </p>
             <p className="mt-4 text-sm text-gray-800"></p>
           </div>
