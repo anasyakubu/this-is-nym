@@ -8,6 +8,7 @@ import Stats from "../section/Stats/Stats";
 import Partners from "../section/Partners/Partners";
 import Testimonial from "../section/Testimonial/Testimonial";
 import Footer from "../components/Footer";
+import FooterTwo from "../components/FooterTwo";
 // import Video from "../section/Video/Video";
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Stats />
       <Partners />
       <Testimonial />
+      {/* <FooterTwo /> */}
       <Footer />
       {/* <Video /> */}
       {/* <Quotes /> */}

@@ -68,7 +68,7 @@ const HomeHeader = () => {
               <Image
                 src={MyGradeCard}
                 alt="MyGradeCard"
-                className="h-12 w-12 m-3"
+                className="h-12 w-14 m-3"
               />
             </div>
             <div className="">
