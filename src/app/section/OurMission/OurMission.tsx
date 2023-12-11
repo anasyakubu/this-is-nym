@@ -49,7 +49,7 @@ const OurMission = () => {
               <PrimaryBtn text="Join Us on the Journey" />
             </div>
           </div>
-          <div className="">
+          <div className="mt-5">
             <Image
               src={Banner}
               alt="Banner"
